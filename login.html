@@ -1,25 +1,30 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Example</title>
+    <title>Student Portal | Login</title>
     <link rel="stylesheet" href="login.css">
- </head>
- <body>
-    <div class="container"> 
-            <img src="images/blue_image-removebg-preview.png" alt="">
-        <h3>Student portal</h1>
+</head>
+<body>
+
+    <div class="login-card">
+        <img src="images/blue_image-removebg-preview.png" alt="Logo">
+        <h1>Student portal</h1>
         <p>Log in to continue your course.</p>
-        <form action="">
-            <label for="Email">Email</label><br>
-            <input type="text"><br> 
-            <label for="Password">Password</label><br>
-            <input type="text"><br>
-            
+
+        <form action="#">
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" required>
+
             <button type="submit">Log In</button>
         </form>
-        <p>Forgot your Password?Contact your admissions<br>team to have it reset.</p>
+
+        <p>Forgot your password? Contact your admissions team to have it reset.</p>
     </div>
- </body>
- </html>
+
+</body>
+</html>
